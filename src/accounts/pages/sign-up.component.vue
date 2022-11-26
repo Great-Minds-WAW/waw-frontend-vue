@@ -243,7 +243,7 @@ const handleRegister = async () => {
             for="signup_birthdate"
             class="!bg-slate-100"
             :class="{ 'p-error': v$.birthdate.$invalid && submitted }">
-            Confirm Password
+            Date of birth
           </label>
         </span>
         <span v-if="v$.birthdate.$error && submitted">
